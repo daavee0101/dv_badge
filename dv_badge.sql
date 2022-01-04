@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD COLUMN `badge_id` VARCHAR(35) NULL;
