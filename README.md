@@ -1,4 +1,4 @@
-## [ESX 1.1 & 1.2]
+## [ESX 1.1 & Legacy]
 
 ## Using the resource ##   
 A resource `LUA` nyelvben lett írva `ESX` keretrendszerhez.
