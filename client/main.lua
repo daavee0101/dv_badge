@@ -30,12 +30,12 @@ AddEventHandler('playerSpawned', function()
     while ESX == nil do Wait(0) end
     loaded = true
       PlayerData = ESX.GetPlayerData()
-        ESX.TriggerServerCallback('dv_badges:GetBadges',function(badges)
+      ESX.TriggerServerCallback('dv_badges:GetBadges',function(badges)
+        dvbadges = badges
+      end)
       ESX.TriggerServerCallback('dv_getjelvenyszam',function(badges)
-      dvbadges = badges
-    end)
-  end)
- TriggerEvent('dv_badges:UpdateBadge',-1,dvbadges)
+        dvbadges = badges
+      end)
 end)
 
 RegisterCommand(Config.FelCommand, function(source, args, rawCommand)
